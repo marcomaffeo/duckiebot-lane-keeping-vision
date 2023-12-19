@@ -1,0 +1,2430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="Benito Vodola" from="Onshape" on="11/09/23||16:08:48"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="millimeter" mass="gram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="Duckiebot v9" uid="98b4e8de0b94cf136175faed"
+                 version="w-7434d56c67c77da1f1e4ca21">
+      <InstanceTree>
+         <Instance entityUid="0b2a4c51933e43b36c014646" name="front_assembly &lt;1&gt;"
+                   rigidGroup="root.MsnG0eSfre6MZoy3M"
+                   uid="MvdpnAthNHb951ycp">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>0.006285476 0.176921103 -0.131017205 </Translation>
+            </Transform>
+            <Instance entityUid="KFjh*:*61daa5c8bf8a31a3b93640cc" name="r1 &lt;1&gt;"
+                      uid="MRRzz3JOywqSYTmxW">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFXi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_30mm &lt;2&gt;"
+                      uid="MTgM/S7OYGhl6Sc5u">
+               <Transform>
+                  <Rotation>0.984149976 -0.177338164 0.000000000 -0.000000000 0.000000000 1.000000000 -0.177338164 -0.984149976 0.000000000 </Rotation>
+                  <Translation>0.063827721 0.145229999 0.004246388 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFPi*:*61daa5c8bf8a31a3b93640cc" name="fb_chip &lt;6&gt;"
+                      uid="Mjl8t3HELMdpNtizO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbi*:*61daa5c8bf8a31a3b93640cc" name="diode_8mm &lt;1&gt;"
+                      uid="MdOCNf8vWPT8hP1xW">
+               <Transform>
+                  <Rotation>0.000000000 -1.000000000 0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.042515000 0.161000001 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;1&gt;"
+                      uid="Mduxqu9UHqRgYwCPc">
+               <Transform>
+                  <Rotation>0.996702073 0.081147880 0.000000000 -0.000000000 0.000000000 1.000000000 0.081147880 -0.996702073 0.000000000 </Rotation>
+                  <Translation>0.142138292 0.179579999 0.003949071 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFvh*:*61daa5c8bf8a31a3b93640cc" name="r3 &lt;1&gt;"
+                      uid="MtDb2ZI88ykvYtpNw">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFzh*:*61daa5c8bf8a31a3b93640cc" name="chip1 &lt;1&gt;"
+                      uid="M0OhCxvLr9ZJgfKUd">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;4&gt;"
+                      uid="MklPJtQ0r2afdxFoC">
+               <Transform>
+                  <Rotation>-0.923728021 -0.383049008 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.383049008 -0.923728021 -0.000000000 </Rotation>
+                  <Translation>0.142138292 0.142229999 0.003949071 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;2&gt;"
+                      uid="MHGKZ1yooL/E28qc6">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.063827721 0.179579999 0.004246388 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDi*:*61daa5c8bf8a31a3b93640cc" name="fb_chip &lt;3&gt;"
+                      uid="Mc4vRJJso6ievTlrd">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFnh*:*61daa5c8bf8a31a3b93640cc" name="r2 &lt;1&gt;"
+                      uid="MCTYc+ZBH5nVlg16U">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3h*:*61daa5c8bf8a31a3b93640cc" name="r4 &lt;1&gt;"
+                      uid="MbayrAxWh+R11+yoW">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFXi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_30mm &lt;1&gt;"
+                      uid="MeBgBJzy4VWe2sp7I">
+               <Transform>
+                  <Rotation>0.622581760 -0.782554760 0.000000000 0.000000000 0.000000000 1.000000000 -0.782554760 -0.622581760 0.000000000 </Rotation>
+                  <Translation>0.142138292 0.145229999 0.003949071 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;3&gt;"
+                      uid="M3x5idOyVluwHOnyN">
+               <Transform>
+                  <Rotation>-0.923728021 -0.383049008 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.383049008 -0.923728021 -0.000000000 </Rotation>
+                  <Translation>0.063827721 0.142229999 0.004246388 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFrh*:*61daa5c8bf8a31a3b93640cc" name="front_bumper &lt;1&gt;"
+                      uid="MRJLkFM8/lM51Hn5s">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFLi*:*61daa5c8bf8a31a3b93640cc" name="fb_chip &lt;5&gt;"
+                      uid="MVqfnP+EmSyk3dE7T">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbi*:*61daa5c8bf8a31a3b93640cc" name="diode_8mm &lt;2&gt;"
+                      uid="Mxtn6Qn9t1RlvFkhp">
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.102875000 0.160904999 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF7h*:*61daa5c8bf8a31a3b93640cc" name="fb_chip &lt;1&gt;"
+                      uid="MWBiUDlEDRMQnqxgb">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFHi*:*61daa5c8bf8a31a3b93640cc" name="fb_chip &lt;4&gt;"
+                      uid="Mj46bqKh3wdufYhif">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbi*:*61daa5c8bf8a31a3b93640cc" name="diode_8mm &lt;3&gt;"
+                      uid="M8zqilA67hjx+M15y">
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.162705001 0.161000001 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/h*:*61daa5c8bf8a31a3b93640cc" name="fb_chip &lt;2&gt;"
+                      uid="M4VoEzXq5xmaNVx+1">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="1abc71595f411cd8108550e2" name="raspberry &lt;1&gt;"
+                   rigidGroup="root.MsnG0eSfre6MZoy3M"
+                   uid="MW+ZEevSMjLOFvh40">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.003307204 -0.018552903 0.011212794 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*61daa5c8bf8a31a3b93640cc" name="pcb &lt;1&gt;"
+                      uid="MKoyUJpXjFQCFtq+J">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.120500000 0.089937135 0.030300000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFLZ*:*61daa5c8bf8a31a3b93640cc" name="duckiehat_pcb &lt;1&gt;"
+                      uid="MUC+FwvyKAIMa6t4H">
+               <Transform>
+                  <Rotation>0.999999714 0.000755685 0.000000000 0.000755685 -0.999999714 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.052477031 0.145304283 0.015143648 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFjX*:*61daa5c8bf8a31a3b93640cc" name="outer &lt;1&gt;"
+                      uid="M0hmNADGevombiecF">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.156458907 0.070921444 0.028700000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFXX*:*61daa5c8bf8a31a3b93640cc" name="Component5 &lt;1&gt;"
+                      uid="MdgpnpSi5gSQ5aMFn">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.156458907 0.070921444 0.028700000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/S*:*61daa5c8bf8a31a3b93640cc" name="outer (1) &lt;1&gt;"
+                      uid="Mx3+IUbsod0wdbqGA">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.156458907 0.089321444 0.028700000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDT*:*61daa5c8bf8a31a3b93640cc" name="shell (3) &lt;1&gt;"
+                      uid="MM4GAlP+uXWvr93ds">
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.154521249 0.107822443 0.028800000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFzS*:*61daa5c8bf8a31a3b93640cc" name="Component5 (2) &lt;1&gt;"
+                      uid="MnWPa4EcAAi5P+1JF">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.156458907 0.089321444 0.028700000 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="3923ec7f1c14733d417abc04" name="battery &lt;1&gt;"
+                   rigidGroup="root.MsnG0eSfre6MZoy3M"
+                   uid="MP89gILoWYz3CfQtL">
+            <Transform>
+               <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+               <Translation>0.109160476 0.040716823 0.066062794 </Translation>
+            </Transform>
+            <Instance entityUid="KFfh*:*61daa5c8bf8a31a3b93640cc" name="battery &lt;1&gt;"
+                      uid="MX8HF/zuV66ZnudzZ">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="cbfc1c014c23f21d77166948" name="bottom_assembly &lt;1&gt;"
+                   rigidGroup="root.MsnG0eSfre6MZoy3M"
+                   uid="Mk0TOJLZA/AOatOO/">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.019489104 -0.001105746 0.011212794 </Translation>
+            </Transform>
+            <Instance entityUid="KFzj*:*61daa5c8bf8a31a3b93640cc" name="bottom_plate &lt;1&gt;"
+                      uid="MPCU/0kGu+0x8TCT4">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;2&gt;"
+                      uid="MY6I7EUf+AlTECdMZ">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 </Rotation>
+                  <Translation>0.099821372 0.113822567 -0.019500000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3j*:*61daa5c8bf8a31a3b93640cc" name="screw_motor_M3x30 &lt;2&gt;"
+                      uid="M5fbTx1jlhfFOWSu/">
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 1.000000000 -0.924224593 0.381849319 -0.000000000 -0.381849319 -0.924224593 0.000000000 </Rotation>
+                  <Translation>0.124771371 0.113822567 -0.001900000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;4&gt;"
+                      uid="MmE3SfNI1bolakff6">
+               <Transform>
+                  <Rotation>0.000000000 -0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 0.000000000 </Rotation>
+                  <Translation>0.079521371 0.113822567 -0.001400000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="a405f293c078dba8479c519d" name="right_motor &lt;1&gt;"
+                      uid="MZPjgo0HVJ9wl9UYh">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.131960475 0.144166821 0.000512794 </Translation>
+               </Transform>
+               <Instance entityUid="KF/k*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;2&gt;"
+                         uid="M+AAvJsqIsLass0vA">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTl*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;7&gt;"
+                         uid="MCaoPqX1/fmLuzluq">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFLl*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;5&gt;"
+                         uid="MkbDkL6/Pv9fVNYgU">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFDl*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;3&gt;"
+                         uid="MRhKIBa8l99Wqm2mZ">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="68977e97c24d5432a7631253" name="right_wheel &lt;1&gt;"
+                         uid="MjzE2CV9dItC8HoQs">
+                  <Transform>
+                     <Rotation>0.000000000 -1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                     <Translation>0.187760475 0.132566821 0.000512794 </Translation>
+                  </Transform>
+                  <Instance entityUid="KFjl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;3&gt;"
+                            uid="M9O6GLG6sqHyfnyig">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFbl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;1&gt;"
+                            uid="MBkulBoNIq3civj66">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFXl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel_rubber &lt;1&gt;"
+                            uid="MY3ecJZvbpe6wADcN">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFfl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;2&gt;"
+                            uid="MlkjF80QMub8J8PuM">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFvl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;6&gt;"
+                            uid="MQekUBVWANCEeC6Ng">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFzl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;7&gt;"
+                            uid="M6l/9dIW5YVTsIz9A">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFnl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;4&gt;"
+                            uid="MaKp6doFMyfM5ZFos">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFrl*:*61daa5c8bf8a31a3b93640cc" name="right_wheel &lt;5&gt;"
+                            uid="M6MVHioXbYk+i0e/I">
+                     <Transform>
+                        <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                        <Translation>-0.122072567 0.151449579 0.010700000 </Translation>
+                     </Transform>
+                  </Instance>
+               </Instance>
+               <Instance entityUid="KF7k*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;1&gt;"
+                         uid="MR80c/uAwDQW5feiD">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFPl*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;6&gt;"
+                         uid="Me29XtdKvKMwEyZRu">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFHl*:*61daa5c8bf8a31a3b93640cc" name="right_motor &lt;4&gt;"
+                         uid="M/eYzLVun2QLxOYl3">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.019489104 -0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="KF7j*:*61daa5c8bf8a31a3b93640cc" name="dc_motor_mounting_DB18 &lt;1&gt;"
+                      uid="M3XmM9Hi+eQidMjzq">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.076521371 -0.022077357 -0.157767420 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3j*:*61daa5c8bf8a31a3b93640cc" name="screw_motor_M3x30 &lt;1&gt;"
+                      uid="MBos5shJfeVvRYbKF">
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 0.631459272 -0.775409045 -0.000000000 -0.775409045 -0.631459272 -0.000000000 </Rotation>
+                  <Translation>0.054571372 0.113822567 -0.001400000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF7j*:*61daa5c8bf8a31a3b93640cc" name="dc_motor_mounting_DB18 &lt;4&gt;"
+                      uid="M+REgbAZmN4dmbqGK">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.124771371 0.249722492 -0.157767420 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3j*:*61daa5c8bf8a31a3b93640cc" name="screw_motor_M3x30 &lt;3&gt;"
+                      uid="MMLSt8j5QbHFU6pfn">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 0.173612275 0.984814083 0.000000000 0.984814083 -0.173612275 0.000000000 </Rotation>
+                  <Translation>0.054571372 0.113822567 -0.019500000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="79ff7900029a1028b993b76e" name="hudson_bearing &lt;1&gt;"
+                      uid="Mzd6zKMWdLO3E3Skr">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.109160476 0.047716823 -0.013787206 </Translation>
+               </Transform>
+               <Instance entityUid="KFvi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_25mm &lt;1&gt;"
+                         uid="MffiJaK5oonq4X+oZ">
+                  <Transform>
+                     <Rotation>-0.999827413 -0.018578073 0.000000000 -0.018578073 0.999827413 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                     <Translation>-0.000510896 0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFvi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_25mm &lt;2&gt;"
+                         uid="M2r7qHmWu/rd8KIy4">
+                  <Transform>
+                     <Rotation>-0.909078742 0.416624341 0.000000000 0.416624341 0.909078742 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.039489104 0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KF3i*:*61daa5c8bf8a31a3b93640cc"
+                         name="screw_chassis_M3x10_nylon &lt;1&gt;"
+                         uid="Mc15Ts/4b8eZJz72c">
+                  <Transform>
+                     <Rotation>-0.140491040 -0.990081950 0.000000000 -0.990081950 0.140491040 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                     <Translation>-0.000510896 0.001105746 -0.016787206 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KF3i*:*61daa5c8bf8a31a3b93640cc"
+                         name="screw_chassis_M3x10_nylon &lt;2&gt;"
+                         uid="MseRk1F0i5g5zw2cZ">
+                  <Transform>
+                     <Rotation>-0.206679894 0.978408617 0.000000000 0.978408617 0.206679894 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.039489104 0.001105746 -0.016787206 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;2&gt;"
+                         uid="MzwWJUCg2D1Z5z23q">
+                  <Transform>
+                     <Rotation>0.923728021 0.383049008 0.000000000 -0.383049008 0.923728021 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                     <Translation>0.039489104 0.001105746 0.011712794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KF3l*:*61daa5c8bf8a31a3b93640cc" name="hudson_bearing &lt;1&gt;"
+                         uid="MSF9Cc6MJD26yly0W">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 0.001105746 0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;1&gt;"
+                         uid="MoRUHYDGTlEzpFh8g">
+                  <Transform>
+                     <Rotation>0.923728021 0.383049008 0.000000000 -0.383049008 0.923728021 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.000510896 0.001105746 0.011712794 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="KF7j*:*61daa5c8bf8a31a3b93640cc" name="dc_motor_mounting_DB18 &lt;2&gt;"
+                      uid="M8mHUSpLN0V4OlvIa">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.054571372 -0.022077357 -0.157767420 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF7j*:*61daa5c8bf8a31a3b93640cc" name="dc_motor_mounting_DB18 &lt;3&gt;"
+                      uid="MMQzQkiK4AESC8SMu">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.102821372 0.249722492 -0.157767420 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="74e4d712d228de67dd9b9690" name="left_motor &lt;1&gt;"
+                      uid="MMMg6holwgeeRKzHI">
+               <Transform>
+                  <Rotation>-1.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.086360476 0.144166821 0.001012794 </Translation>
+               </Transform>
+               <Instance entityUid="9ec6a8c4a99a37456ea35255" name="left_wheel &lt;1&gt;"
+                         uid="MfoWy8674yzGtKVaE">
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.030560476 0.132566821 0.001012794 </Translation>
+                  </Transform>
+                  <Instance entityUid="KFzk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;6&gt;"
+                            uid="MegQfz8Mhe0fZozeB">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFfk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;1&gt;"
+                            uid="MblEmDF7Osl2BYfJH">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFrk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;4&gt;"
+                            uid="MiuywEUrmBwN8Dzyn">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFnk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;3&gt;"
+                            uid="M5OJGSmI4ZnehtTLY">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFvk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;5&gt;"
+                            uid="M55mLy1htVPgUK78S">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KF3k*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;7&gt;"
+                            uid="M4rVJ+aFv9XxDXgFh">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFbk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel_rubber &lt;1&gt;"
+                            uid="Mx0fRzG/m9R2fSXIt">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+                  <Instance entityUid="KFjk*:*61daa5c8bf8a31a3b93640cc" name="left_wheel &lt;2&gt;"
+                            uid="MHd/nTze7JkLQ5JxD">
+                     <Transform>
+                        <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                        <Translation>0.122072567 0.044728628 -0.012225588 </Translation>
+                     </Transform>
+                  </Instance>
+               </Instance>
+               <Instance entityUid="KFDk*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;2&gt;"
+                         uid="MdkpkOOlJK/6zMsr4">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KF/j*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;1&gt;"
+                         uid="MjeG6iKiiW2yVFlgJ">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFLk*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;4&gt;"
+                         uid="MtPLnIBa/DWj7zzRR">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTk*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;6&gt;"
+                         uid="MVB1qGqfonYMHG3Po">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFPk*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;5&gt;"
+                         uid="MdRI2SePe7xd0rdyi">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFXk*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;7&gt;"
+                         uid="MopySO4tFuKqa5c4w">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFHk*:*61daa5c8bf8a31a3b93640cc" name="left_motor &lt;3&gt;"
+                         uid="MrIbI4VUR1j2LjR26">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.019489104 -0.001105746 -0.011212794 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;1&gt;"
+                      uid="MhXTf5k5ib+rknBIB">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                  <Translation>0.097421372 0.113822567 -0.001900000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3j*:*61daa5c8bf8a31a3b93640cc" name="screw_motor_M3x30 &lt;4&gt;"
+                      uid="MtPA9567xXRb3yFCP">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                  <Translation>0.124771371 0.113822567 -0.019500000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;3&gt;"
+                      uid="M7SlmMIMYfPywyjdp">
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                  <Translation>0.079521371 0.113822567 -0.019500000 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="096d5f00c7a3abf6d8d1ca3b" name="top_assembly &lt;1&gt;"
+                   rigidGroup="root.MsnG0eSfre6MZoy3M"
+                   uid="ModVnU3L5O3LUNhZz">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.108833731 -0.000075176 0.045562794 </Translation>
+            </Transform>
+            <Instance entityUid="KFXj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2.5_nylon &lt;4&gt;"
+                      uid="MIi6DLDQa/josPGbg">
+               <Transform>
+                  <Rotation>0.999337590 0.036392060 -0.000000000 -0.036392060 0.999337590 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.244983106 0.096006051 -0.014641916 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFXj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2.5_nylon &lt;1&gt;"
+                      uid="MPHpthWol7xpnFd4V">
+               <Transform>
+                  <Rotation>0.868281299 -0.496072158 -0.000000000 0.496072158 0.868281299 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.244963916 0.046992229 -0.021206352 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbj*:*61daa5c8bf8a31a3b93640cc" name="screw_nylon_M2.5x10 &lt;3&gt;"
+                      uid="M5xA0CfwwUk7PbNES">
+               <Transform>
+                  <Rotation>0.999337590 0.036392060 -0.000000000 -0.036392060 0.999337590 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.186994206 0.046970406 0.003000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbj*:*61daa5c8bf8a31a3b93640cc" name="screw_nylon_M2.5x10 &lt;4&gt;"
+                      uid="MxZ/AoaykqM4xx6Na">
+               <Transform>
+                  <Rotation>0.999337590 0.036392060 -0.000000000 -0.036392060 0.999337590 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.244994206 0.095970406 0.003000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTj*:*61daa5c8bf8a31a3b93640cc" name="distance_disk_4mm &lt;2&gt;"
+                      uid="M5ShdnY18DlrdmiUM">
+               <Transform>
+                  <Rotation>0.999668700 0.025738885 0.000000000 0.025738885 -0.999668700 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.186994206 0.095970406 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTj*:*61daa5c8bf8a31a3b93640cc" name="distance_disk_4mm &lt;1&gt;"
+                      uid="MzHq19/UTvbTYfzpo">
+               <Transform>
+                  <Rotation>0.999668700 0.025738885 0.000000000 0.025738885 -0.999668700 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.244994206 0.095970406 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFfj*:*61daa5c8bf8a31a3b93640cc" name="standoff_raspi &lt;1&gt;"
+                      uid="MGeSlk8QC2nrBcNey">
+               <Transform>
+                  <Rotation>0.747033717 0.664786150 0.000000000 0.664786150 -0.747033717 -0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.244994206 0.095970406 -0.005600000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFfj*:*61daa5c8bf8a31a3b93640cc" name="standoff_raspi &lt;2&gt;"
+                      uid="MdTaNwBNDBHV5THwP">
+               <Transform>
+                  <Rotation>-0.870241073 0.492626100 0.000000000 0.492626100 0.870241073 -0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.186994206 0.046970406 -0.005600000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFfj*:*61daa5c8bf8a31a3b93640cc" name="standoff_raspi &lt;4&gt;"
+                      uid="MBTsCAub+Lf89526J">
+               <Transform>
+                  <Rotation>-0.937141403 -0.348949841 0.000000000 -0.348949841 0.937141403 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.186994206 0.095970406 -0.005600000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFXj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2.5_nylon &lt;2&gt;"
+                      uid="My+pN76xDwkXicLZx">
+               <Transform>
+                  <Rotation>0.233570640 -0.972339836 -0.000000000 0.972339836 0.233570640 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.186964049 0.046948400 -0.021206352 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFfj*:*61daa5c8bf8a31a3b93640cc" name="standoff_raspi &lt;3&gt;"
+                      uid="MTTo1+jr6ByFYh7ey">
+               <Transform>
+                  <Rotation>0.197715580 0.980259430 0.000000000 0.980259430 -0.197715580 -0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.244994206 0.046970406 -0.005600000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbj*:*61daa5c8bf8a31a3b93640cc" name="screw_nylon_M2.5x10 &lt;1&gt;"
+                      uid="MQ00siCyQEkzMHZIG">
+               <Transform>
+                  <Rotation>0.999668700 -0.025738885 -0.000000000 0.025738885 0.999668700 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.186994206 0.095970406 0.003000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTj*:*61daa5c8bf8a31a3b93640cc" name="distance_disk_4mm &lt;4&gt;"
+                      uid="MipR9oOAJAOBNEyJD">
+               <Transform>
+                  <Rotation>-0.913562713 -0.406697885 0.000000000 -0.406697885 0.913562713 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.244994206 0.046970406 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFXj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2.5_nylon &lt;3&gt;"
+                      uid="MkNRQPvmBgp3rzImA">
+               <Transform>
+                  <Rotation>0.979378212 0.202035439 -0.000000000 -0.202035439 0.979378212 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.186991638 0.095933161 -0.021206352 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTj*:*61daa5c8bf8a31a3b93640cc" name="distance_disk_4mm &lt;3&gt;"
+                      uid="McmxRvHdnsf+GmSJW">
+               <Transform>
+                  <Rotation>-0.913562736 -0.406697833 0.000000000 -0.406697833 0.913562736 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.186994206 0.046970406 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="7b6ebd67d6cae37a0e47df19" name="cam_holder &lt;1&gt;"
+                      uid="MEONV0KEcgaBk8l2Y">
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.094160476 0.201716823 0.048562794 </Translation>
+               </Transform>
+               <Instance entityUid="KFjj*:*61daa5c8bf8a31a3b93640cc" name="camera_pi &lt;1&gt;"
+                         uid="M0muegPPDPrBgrbic">
+                  <Transform>
+                     <Rotation>0.000000000 -0.965925826 0.258819045 -1.000000000 0.000000000 0.000000000 -0.000000000 -0.258819045 -0.965925826 </Rotation>
+                     <Translation>0.011394549 0.128769548 -0.016185835 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;1&gt;"
+                         uid="Mghb1GR4IyMIrjKLP">
+                  <Transform>
+                     <Rotation>0.383049008 -0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.012924824 0.103833731 -0.048562794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFnj*:*61daa5c8bf8a31a3b93640cc" name="screw_camera_M2x8_nylon &lt;2&gt;"
+                         uid="M8V4dpzbjFja4NU1/">
+                  <Transform>
+                     <Rotation>0.157429145 -0.205434570 -0.965925826 -0.793738227 -0.608259506 -0.000000000 -0.587533566 0.766692253 -0.258819045 </Rotation>
+                     <Translation>0.009149882 0.113233731 -0.011734147 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFnj*:*61daa5c8bf8a31a3b93640cc" name="screw_camera_M2x8_nylon &lt;4&gt;"
+                         uid="MhChK38VTn1tyWxsd">
+                  <Transform>
+                     <Rotation>0.157429145 -0.205434570 -0.965925826 -0.793738227 -0.608259506 -0.000000000 -0.587533566 0.766692253 -0.258819045 </Rotation>
+                     <Translation>0.012614382 0.134366531 -0.024663837 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;2&gt;"
+                         uid="MIs8nZB4jX1QXWkGZ">
+                  <Transform>
+                     <Rotation>0.383049008 -0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.003924824 0.123833731 -0.048562794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;2&gt;"
+                         uid="MHNZxXH9or8dBYeU2">
+                  <Transform>
+                     <Rotation>0.383049008 -0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.003924824 0.123833731 -0.040662794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;3&gt;"
+                         uid="MaJpnpbP0ml74oNd6">
+                  <Transform>
+                     <Rotation>0.383049008 -0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.012924824 0.143833731 -0.048562794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;1&gt;"
+                         uid="Ms9lAoSuQfQtEbwmP">
+                  <Transform>
+                     <Rotation>0.383049008 -0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.012924824 0.103833731 -0.040662794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFnj*:*61daa5c8bf8a31a3b93640cc" name="screw_camera_M2x8_nylon &lt;1&gt;"
+                         uid="M6q7LeiBccjSsCRQr">
+                  <Transform>
+                     <Rotation>0.157429145 -0.205434570 -0.965925826 -0.793738227 -0.608259506 -0.000000000 -0.587533566 0.766692253 -0.258819045 </Rotation>
+                     <Translation>0.012614382 0.113233731 -0.024663837 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFrj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2 &lt;4&gt;"
+                         uid="MUpSMXpeQC1krnMYQ">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.258819045 0.965925826 1.000000000 -0.000000000 0.000000000 0.000000000 0.965925826 0.258819045 </Rotation>
+                     <Translation>0.017942429 0.113233731 -0.023236191 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFnj*:*61daa5c8bf8a31a3b93640cc" name="screw_camera_M2x8_nylon &lt;3&gt;"
+                         uid="MC3gcPOyYrmwtSbC3">
+                  <Transform>
+                     <Rotation>0.157429145 -0.205434570 -0.965925826 -0.793738227 -0.608259506 -0.000000000 -0.587533566 0.766692253 -0.258819045 </Rotation>
+                     <Translation>0.009149882 0.134366531 -0.011734147 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFvj*:*61daa5c8bf8a31a3b93640cc" name="cam_holder &lt;1&gt;"
+                         uid="MRL1o4CLx4BeDyZsc">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.000075176 0.108833731 -0.045562794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFrj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2 &lt;2&gt;"
+                         uid="MKJDaLy7kP/fAljsI">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.258819045 0.965925826 1.000000000 -0.000000000 0.000000000 0.000000000 0.965925826 0.258819045 </Rotation>
+                     <Translation>0.014477929 0.113233731 -0.010306501 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;3&gt;"
+                         uid="MOsUn2oBZyfR7DdYO">
+                  <Transform>
+                     <Rotation>0.383049008 -0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.012924824 0.143833731 -0.040662794 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFrj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2 &lt;3&gt;"
+                         uid="MzFTM86I73gJKELP9">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.258819045 0.965925826 1.000000000 -0.000000000 0.000000000 0.000000000 0.965925826 0.258819045 </Rotation>
+                     <Translation>0.014477929 0.134366531 -0.010306501 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFrj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M2 &lt;1&gt;"
+                         uid="M15aCHifuuCj0Ii2S">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.258819045 0.965925826 1.000000000 -0.000000000 0.000000000 0.000000000 0.965925826 0.258819045 </Rotation>
+                     <Translation>0.017942429 0.134366531 -0.023236191 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="KFPj*:*61daa5c8bf8a31a3b93640cc" name="top_plate &lt;1&gt;"
+                      uid="MKAS3UOEjm9+249VI">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbj*:*61daa5c8bf8a31a3b93640cc" name="screw_nylon_M2.5x10 &lt;2&gt;"
+                      uid="M8AmJ8i3WYWI4u+Qr">
+               <Transform>
+                  <Rotation>0.997903111 0.064725435 -0.000000000 -0.064725435 0.997903111 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.244994206 0.046970406 0.003000000 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="0e1c35b1ffcf471b650bb4cf" name="back_assembly &lt;1&gt;"
+                   rigidGroup="root.MsnG0eSfre6MZoy3M"
+                   uid="MAkGAmeSmu5Kpr3jt">
+            <Transform>
+               <Rotation>-1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>0.205560472 0.021883262 -0.122262207 </Translation>
+            </Transform>
+            <Instance entityUid="KFri*:*61daa5c8bf8a31a3b93640cc" name="r6 &lt;1&gt;"
+                      uid="MdjuTums/9wM6gwwp">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF7i*:*61daa5c8bf8a31a3b93640cc"
+                      name="screw_chassis_countersunk_M3x10 &lt;1&gt;"
+                      uid="MPqF8LhrkpIK1pjSJ">
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.090649989 0.158754999 -0.029591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="9f9e4cfa824ff4f2c1772f0d" name="backpattern_plate &lt;1&gt;"
+                      uid="Mnz81jVEl+SYTkliL">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.058660484 -0.004708177 0.001992791 </Translation>
+               </Transform>
+               <Instance entityUid="KFLj*:*61daa5c8bf8a31a3b93640cc" name="backpattern_plate &lt;1&gt;"
+                         uid="MBE+mNhd3i9m51dfe">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.088239505 -0.028584231 -0.128963176 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="KFHj*:*61daa5c8bf8a31a3b93640cc" name="back_pattern_100x50 &lt;1&gt;"
+                         uid="MrYa2x+FQY9zGLe/9">
+                  <Transform>
+                     <Rotation>-0.000000000 1.000000000 -0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.038239505 -0.031884231 -0.153963176 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="KF/i*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x8 &lt;4&gt;"
+                      uid="M0iElQQ/zLXVytLWG">
+               <Transform>
+                  <Rotation>-0.980746660 -0.195284381 -0.000000000 -0.195284381 0.980746660 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.039399997 0.138062502 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/i*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x8 &lt;2&gt;"
+                      uid="M8bRwWmYiy6lHBQfR">
+               <Transform>
+                  <Rotation>-0.980746660 -0.195284381 -0.000000000 -0.195284381 0.980746660 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.154399997 0.138062502 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFzi*:*61daa5c8bf8a31a3b93640cc" name="bumperbrace &lt;2&gt;"
+                      uid="MxKLRTEliSY7VGc9w">
+               <Transform>
+                  <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.096899997 0.164650002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbi*:*61daa5c8bf8a31a3b93640cc" name="diode_8mm &lt;1&gt;"
+                      uid="Me10akGkmzy+jp9ft">
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.156769999 0.152802001 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFzi*:*61daa5c8bf8a31a3b93640cc" name="bumperbrace &lt;1&gt;"
+                      uid="MJopb1zLQ3N6bKEnB">
+               <Transform>
+                  <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.096899997 0.136475002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFvi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_25mm &lt;1&gt;"
+                      uid="M0ZLw3F74CdIe0ARZ">
+               <Transform>
+                  <Rotation>0.523101534 0.852270371 -0.000000000 0.000000000 0.000000000 1.000000000 0.852270371 -0.523101534 -0.000000000 </Rotation>
+                  <Translation>0.063399997 0.139650002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3i*:*61daa5c8bf8a31a3b93640cc"
+                      name="screw_chassis_M3x10_nylon &lt;2&gt;"
+                      uid="MyW+cCeRpSd+cYXue">
+               <Transform>
+                  <Rotation>-0.383049008 0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.090649989 0.146254998 -0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFni*:*61daa5c8bf8a31a3b93640cc" name="r7 &lt;1&gt;"
+                      uid="MC56stHQkvEaLHjCK">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFvi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_25mm &lt;2&gt;"
+                      uid="MHCAfqZVLB8VTbVVi">
+               <Transform>
+                  <Rotation>0.438256039 0.898850179 -0.000000000 0.000000000 0.000000000 1.000000000 0.898850179 -0.438256039 -0.000000000 </Rotation>
+                  <Translation>0.129399997 0.139650002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFvi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_25mm &lt;4&gt;"
+                      uid="Mlc1GxepGEj5X7wem">
+               <Transform>
+                  <Rotation>-0.383049008 0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.090649989 0.146254998 -0.026591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;1&gt;"
+                      uid="M6fpR/feYNxNy6HYs">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.154399997 0.166237502 0.006233560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFvi*:*61daa5c8bf8a31a3b93640cc" name="stand_off_25mm &lt;3&gt;"
+                      uid="MyKC7OMrjELQTslBz">
+               <Transform>
+                  <Rotation>0.923728021 0.383049008 -0.000000000 -0.383049008 0.923728021 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.090649989 0.158754999 -0.026591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/i*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x8 &lt;1&gt;"
+                      uid="MKw5D236ihRE5ZsA6">
+               <Transform>
+                  <Rotation>-0.980746660 -0.195284381 -0.000000000 -0.195284381 0.980746660 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.154399997 0.166237502 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFbi*:*61daa5c8bf8a31a3b93640cc" name="diode_8mm &lt;2&gt;"
+                      uid="MUtXSbWpXQeGFD76j">
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.036770000 0.152802001 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;3&gt;"
+                      uid="MWPqTWRW2slmDitVc">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.039399997 0.166237502 0.006233560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/i*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x8 &lt;3&gt;"
+                      uid="MgstXJ/HJySoEXK8k">
+               <Transform>
+                  <Rotation>-0.980746660 -0.195284381 -0.000000000 -0.195284381 0.980746660 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.039399997 0.166237502 -0.001591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;2&gt;"
+                      uid="MFR6ysZBjp/BynWqz">
+               <Transform>
+                  <Rotation>0.923728021 0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 -0.383049008 0.923728021 0.000000000 </Rotation>
+                  <Translation>0.063399997 0.133475002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF3i*:*61daa5c8bf8a31a3b93640cc"
+                      name="screw_chassis_M3x10_nylon &lt;1&gt;"
+                      uid="M9mq+KxD/Z+mfajLv">
+               <Transform>
+                  <Rotation>-0.383049008 0.923728021 0.000000000 -0.923728021 -0.383049008 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.090649989 0.158754999 -0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;3&gt;"
+                      uid="M0q5yxc4Q9LXL3mAb">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.129399997 0.170825002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF7i*:*61daa5c8bf8a31a3b93640cc"
+                      name="screw_chassis_countersunk_M3x10 &lt;2&gt;"
+                      uid="M7hoizDpETzFlo5lZ">
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.090649989 0.146254999 -0.029591440 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;2&gt;"
+                      uid="MxbCqgVZDm/vHSqek">
+               <Transform>
+                  <Rotation>0.500000000 -0.866025404 -0.000000000 0.866025404 0.500000000 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.154399997 0.138062502 0.003833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;4&gt;"
+                      uid="MVwHHudPZJYGZDraH">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.063399997 0.170825002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFfi*:*61daa5c8bf8a31a3b93640cc" name="back_bumper &lt;1&gt;"
+                      uid="MGhJdQGCGUMpqVpkI">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFDj*:*61daa5c8bf8a31a3b93640cc" name="nut_DIN934_M3 &lt;4&gt;"
+                      uid="MF9dDRLGBLv9RVc6J">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.039399997 0.138062502 0.006233560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFTi*:*61daa5c8bf8a31a3b93640cc" name="screw_metal_M3x10 &lt;1&gt;"
+                      uid="MOoKyqMiDxAohkw1x">
+               <Transform>
+                  <Rotation>0.923728021 0.383049008 0.000000000 0.000000000 0.000000000 -1.000000000 -0.383049008 0.923728021 0.000000000 </Rotation>
+                  <Translation>0.129399997 0.133475002 0.010833560 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KFji*:*61daa5c8bf8a31a3b93640cc" name="chip2 &lt;1&gt;"
+                      uid="MtNq8far8AMMzWgeq">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints/>
+   </RootAssembly>
+   <Assemblies>
+      <Assembly name="left_motor" uid="74e4d712d228de67dd9b9690">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="left_wheel" uid="9ec6a8c4a99a37456ea35255">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="backpattern_plate" uid="9f9e4cfa824ff4f2c1772f0d">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="bottom_assembly" uid="cbfc1c014c23f21d77166948">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="top_assembly" uid="096d5f00c7a3abf6d8d1ca3b">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="right_motor" uid="a405f293c078dba8479c519d">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="front_assembly" uid="0b2a4c51933e43b36c014646">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="back_assembly" uid="0e1c35b1ffcf471b650bb4cf">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="battery" uid="3923ec7f1c14733d417abc04">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="cam_holder" uid="7b6ebd67d6cae37a0e47df19">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="raspberry" uid="1abc71595f411cd8108550e2">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="right_wheel" uid="68977e97c24d5432a7631253">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="hudson_bearing" uid="79ff7900029a1028b993b76e">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+   </Assemblies>
+   <Parts>
+      <Part name="pcb" uid="JFD*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0109540837</Mass>
+            <CenterOfMass>-0.000036155 -0.000100500 0.000800000 </CenterOfMass>
+            <Inertia>0.000002805 0.000006552 0.000009352 0.000000000 0.000000000 -0.000000045 </Inertia>
+         </MassProperties>
+         <GeometryFile name="pcb.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.592156863" g="0.984313725" r="0.847058824"/>
+            <Diffuse a="1.000000000" b="0.592156863" g="0.984313725" r="0.847058824"/>
+            <Specular a="1.000000000" b="0.592156863" g="0.984313725" r="0.847058824"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Component5 (2)" uid="KFzS*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00161568659</Mass>
+            <CenterOfMass>-0.000557703 0.000001000 0.007276011 </CenterOfMass>
+            <Inertia>0.000000057 0.000000061 0.000000051 -0.000000000 -0.000000004 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Component5 (2).step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.098039216" g="0.098039216" r="0.098039216"/>
+            <Diffuse a="1.000000000" b="0.098039216" g="0.098039216" r="0.098039216"/>
+            <Specular a="1.000000000" b="0.098039216" g="0.098039216" r="0.098039216"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="outer (1)" uid="KF/S*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0003524646</Mass>
+            <CenterOfMass>0.000452518 -0.000000401 0.008649944 </CenterOfMass>
+            <Inertia>0.000000022 0.000000020 0.000000020 -0.000000000 0.000000001 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="outer (1).step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.752941176" g="0.800000000" r="0.819607843"/>
+            <Diffuse a="1.000000000" b="0.752941176" g="0.800000000" r="0.819607843"/>
+            <Specular a="1.000000000" b="0.752941176" g="0.800000000" r="0.819607843"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="shell (3)" uid="KFDT*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000274158932</Mass>
+            <CenterOfMass>0.000000023 0.000718247 0.008428820 </CenterOfMass>
+            <Inertia>0.000000021 0.000000017 0.000000026 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="shell (3).step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.964705882" g="0.960784314" r="0.960784314"/>
+            <Diffuse a="1.000000000" b="0.964705882" g="0.960784314" r="0.960784314"/>
+            <Specular a="1.000000000" b="0.964705882" g="0.960784314" r="0.960784314"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Component5" uid="KFXX*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00161568659</Mass>
+            <CenterOfMass>-0.000557703 0.000001000 0.007276011 </CenterOfMass>
+            <Inertia>0.000000057 0.000000061 0.000000051 -0.000000000 -0.000000004 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Component5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.098039216" g="0.098039216" r="0.098039216"/>
+            <Diffuse a="1.000000000" b="0.098039216" g="0.098039216" r="0.098039216"/>
+            <Specular a="1.000000000" b="0.098039216" g="0.098039216" r="0.098039216"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="outer" uid="KFjX*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0003524646</Mass>
+            <CenterOfMass>0.000452518 -0.000000401 0.008649944 </CenterOfMass>
+            <Inertia>0.000000022 0.000000020 0.000000020 -0.000000000 0.000000001 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="outer.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.752941176" g="0.800000000" r="0.819607843"/>
+            <Diffuse a="1.000000000" b="0.752941176" g="0.800000000" r="0.819607843"/>
+            <Specular a="1.000000000" b="0.752941176" g="0.800000000" r="0.819607843"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="duckiehat_pcb" uid="KFLZ*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00841290806</Mass>
+            <CenterOfMass>0.057776367 0.055658581 -0.000803176 </CenterOfMass>
+            <Inertia>0.000002182 0.000002980 0.000005158 0.000000000 0.000000000 -0.000000018 </Inertia>
+         </MassProperties>
+         <GeometryFile name="duckiehat_pcb.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.227450980" r="0.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.227450980" r="0.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.227450980" r="0.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="battery" uid="KFfh*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.362992945</Mass>
+            <CenterOfMass>0.000000000 0.066926703 0.007499293 </CenterOfMass>
+            <Inertia>0.000570810 0.000139529 0.000697019 -0.000000016 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="battery.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="r1" uid="KFjh*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.46019885e-06</Mass>
+            <CenterOfMass>0.042674919 0.162999878 0.000399999 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="r1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Diffuse a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Specular a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="r2" uid="KFnh*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>6.60960491e-07</Mass>
+            <CenterOfMass>0.048174919 0.170624878 0.000208513 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="r2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Diffuse a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Specular a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="front_bumper" uid="KFrh*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00938519914</Mass>
+            <CenterOfMass>0.102875274 0.161016305 -0.000795720 </CenterOfMass>
+            <Inertia>0.000000742 0.000013297 0.000014034 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="front_bumper.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="r3" uid="KFvh*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.46019883e-06</Mass>
+            <CenterOfMass>0.162524918 0.162999878 0.000399999 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="r3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Diffuse a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Specular a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="chip1" uid="KFzh*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.21203564e-05</Mass>
+            <CenterOfMass>0.060674999 0.170725006 0.000675000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="chip1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.490196078" g="0.490196078" r="0.490196078"/>
+            <Diffuse a="1.000000000" b="0.490196078" g="0.490196078" r="0.490196078"/>
+            <Specular a="1.000000000" b="0.490196078" g="0.490196078" r="0.490196078"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="r4" uid="KF3h*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.46019884e-06</Mass>
+            <CenterOfMass>0.102874924 0.162999878 0.000399999 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="r4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Diffuse a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Specular a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="fb_chip" uid="KF7h*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.33050909e-08</Mass>
+            <CenterOfMass>0.043620824 0.166212985 0.000516039 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="fb_chip.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="fb_chip" uid="KF/h*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.33050909e-08</Mass>
+            <CenterOfMass>0.043620823 0.168535153 0.000516039 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="fb_chip1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="fb_chip" uid="KFDi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.33050909e-08</Mass>
+            <CenterOfMass>0.045520824 0.166212985 0.000516039 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="fb_chip2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="fb_chip" uid="KFHi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.33050909e-08</Mass>
+            <CenterOfMass>0.044570823 0.168535153 0.000516039 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="fb_chip3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="fb_chip" uid="KFLi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.33050909e-08</Mass>
+            <CenterOfMass>0.045520823 0.168535153 0.000516039 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="fb_chip4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Diffuse a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Specular a="1.000000000" b="0.250980392" g="0.250980392" r="0.250980392"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="fb_chip" uid="KFPi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.38444267e-06</Mass>
+            <CenterOfMass>0.044570492 0.167373926 0.000854150 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="fb_chip5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.133333333" g="0.141176471" r="0.160784314"/>
+            <Diffuse a="1.000000000" b="0.133333333" g="0.141176471" r="0.160784314"/>
+            <Specular a="1.000000000" b="0.133333333" g="0.141176471" r="0.160784314"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_metal_M3x10" uid="KFTi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000148665742</Mass>
+            <CenterOfMass>0.000000558 -0.000001571 -0.002206695 </CenterOfMass>
+            <Inertia>0.000000002 0.000000002 0.000000000 -0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_metal_M3x10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Diffuse a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Specular a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="stand_off_30mm" uid="KFXi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000401656002</Mass>
+            <CenterOfMass>-0.000000000 0.000000000 0.015000000 </CenterOfMass>
+            <Inertia>0.000000031 0.000000031 0.000000002 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="stand_off_30mm.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.298039216" g="0.752941176" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.298039216" g="0.752941176" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.298039216" g="0.752941176" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="diode_8mm" uid="KFbi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00074790945</Mass>
+            <CenterOfMass>-0.000000000 0.000022914 0.004697279 </CenterOfMass>
+            <Inertia>0.000000009 0.000000009 0.000000006 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="diode_8mm.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Diffuse a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Specular a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="back_bumper" uid="KFfi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00947640978</Mass>
+            <CenterOfMass>0.096104675 0.152101801 -0.000795720 </CenterOfMass>
+            <Inertia>0.000000895 0.000014409 0.000015299 0.000000000 0.000000000 0.000000045 </Inertia>
+         </MassProperties>
+         <GeometryFile name="back_bumper.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="chip2" uid="KFji*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.21203564e-05</Mass>
+            <CenterOfMass>0.054150002 0.159875000 0.000675000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="chip2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.490196078" g="0.490196078" r="0.490196078"/>
+            <Diffuse a="1.000000000" b="0.490196078" g="0.490196078" r="0.490196078"/>
+            <Specular a="1.000000000" b="0.490196078" g="0.490196078" r="0.490196078"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="r7" uid="KFni*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.46019883e-06</Mass>
+            <CenterOfMass>0.156924911 0.154999878 0.000399999 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="r7.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Diffuse a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Specular a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="r6" uid="KFri*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.46019885e-06</Mass>
+            <CenterOfMass>0.036924919 0.154999878 0.000399999 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="r6.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Diffuse a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Specular a="1.000000000" b="0.909803922" g="0.843137255" r="0.811764706"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="stand_off_25mm" uid="KFvi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000334398506</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.012500000 </CenterOfMass>
+            <Inertia>0.000000018 0.000000018 0.000000001 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="stand_off_25mm.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.298039216" g="0.752941176" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.298039216" g="0.752941176" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.298039216" g="0.752941176" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="bumperbrace" uid="KFzi*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00637199319</Mass>
+            <CenterOfMass>-0.000000000 0.001587500 0.004705663 </CenterOfMass>
+            <Inertia>0.000000112 0.000011402 0.000011300 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="bumperbrace.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_chassis_M3x10_nylon" uid="KF3i*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00016301524</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 -0.002505900 </CenterOfMass>
+            <Inertia>0.000000002 0.000000002 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_chassis_M3x10_nylon.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_chassis_countersunk_M3x10" uid="KF7i*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000102402621</Mass>
+            <CenterOfMass>-0.000001693 -0.000001062 -0.003995227 </CenterOfMass>
+            <Inertia>0.000000001 0.000000001 0.000000000 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_chassis_countersunk_M3x10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Diffuse a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Specular a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_metal_M3x8" uid="KF/i*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000143728904</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 -0.001636362 </CenterOfMass>
+            <Inertia>0.000000001 0.000000001 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_metal_M3x8.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Diffuse a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Specular a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="nut_DIN934_M3" uid="KFDj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>7.53871867e-05</Mass>
+            <CenterOfMass>-0.000000000 -0.000000000 0.001200000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="nut_DIN934_M3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Diffuse a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Specular a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="back_pattern_100x50" uid="KFHj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00153505058</Mass>
+            <CenterOfMass>0.000105541 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000001578 0.000000313 0.000001265 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="back_pattern_100x50.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.047058824" g="0.047058824" r="0.047058824"/>
+            <Diffuse a="1.000000000" b="0.047058824" g="0.047058824" r="0.047058824"/>
+            <Specular a="1.000000000" b="0.047058824" g="0.047058824" r="0.047058824"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="backpattern_plate" uid="KFLj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0219013039</Mass>
+            <CenterOfMass>0.049970408 0.024984612 0.001498047 </CenterOfMass>
+            <Inertia>0.000004596 0.000018350 0.000022912 0.000000000 0.000000000 0.000000002 </Inertia>
+         </MassProperties>
+         <GeometryFile name="backpattern_plate.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.686274510" g="0.666666667" r="0.596078431"/>
+            <Diffuse a="1.000000000" b="0.686274510" g="0.666666667" r="0.596078431"/>
+            <Specular a="1.000000000" b="0.686274510" g="0.666666667" r="0.596078431"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="top_plate" uid="KFPj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0571537509</Mass>
+            <CenterOfMass>0.217994206 0.111139791 0.001500000 </CenterOfMass>
+            <Inertia>0.000143756 0.000054445 0.000198116 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="top_plate.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="distance_disk_4mm" uid="KFTj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000184348657</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.002000000 </CenterOfMass>
+            <Inertia>0.000000001 0.000000001 0.000000001 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="distance_disk_4mm.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.949019608" g="0.949019608" r="0.949019608"/>
+            <Diffuse a="1.000000000" b="0.949019608" g="0.949019608" r="0.949019608"/>
+            <Specular a="1.000000000" b="0.949019608" g="0.949019608" r="0.949019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="nut_DIN934_M2.5_nylon" uid="KFXj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>5.27157579e-05</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 0.001000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="nut_DIN934_M2.5_nylon.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_nylon_M2.5x10" uid="KFbj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000110981403</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 -0.002593276 </CenterOfMass>
+            <Inertia>0.000000002 0.000000002 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_nylon_M2.5x10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Diffuse a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Specular a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="standoff_raspi" uid="KFfj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000351663573</Mass>
+            <CenterOfMass>0.000001668 -0.000003563 0.007178802 </CenterOfMass>
+            <Inertia>0.000000007 0.000000007 0.000000001 0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="standoff_raspi.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.949019608" g="0.949019608" r="0.949019608"/>
+            <Diffuse a="1.000000000" b="0.949019608" g="0.949019608" r="0.949019608"/>
+            <Specular a="1.000000000" b="0.949019608" g="0.949019608" r="0.949019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="camera_pi" uid="KFjj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00498913086</Mass>
+            <CenterOfMass>0.004969417 0.006629000 0.003256132 </CenterOfMass>
+            <Inertia>0.000000302 0.000000269 0.000000270 0.000000044 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="camera_pi.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.298039216" g="0.298039216" r="0.298039216"/>
+            <Diffuse a="1.000000000" b="0.298039216" g="0.298039216" r="0.298039216"/>
+            <Specular a="1.000000000" b="0.298039216" g="0.298039216" r="0.298039216"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_camera_M2x8_nylon" uid="KFnj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>5.49536037e-05</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 -0.002127074 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_camera_M2x8_nylon.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="nut_DIN934_M2" uid="KFrj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>2.78595453e-05</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 0.000800000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="nut_DIN934_M2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="cam_holder" uid="KFvj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00934425104</Mass>
+            <CenterOfMass>0.014838632 0.015000014 0.011702233 </CenterOfMass>
+            <Inertia>0.000002570 0.000001653 0.000001442 0.000000000 -0.000000044 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="cam_holder.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.298039216" g="0.298039216" r="0.298039216"/>
+            <Diffuse a="1.000000000" b="0.298039216" g="0.298039216" r="0.298039216"/>
+            <Specular a="1.000000000" b="0.298039216" g="0.298039216" r="0.298039216"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="bottom_plate" uid="KFzj*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0591061656</Mass>
+            <CenterOfMass>0.089671372 0.107769929 0.001500000 </CenterOfMass>
+            <Inertia>0.000150246 0.000042580 0.000192737 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="bottom_plate.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw_motor_M3x30" uid="KF3j*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00030939953</Mass>
+            <CenterOfMass>0.000000255 -0.000000250 -0.011290835 </CenterOfMass>
+            <Inertia>0.000000032 0.000000032 0.000000000 0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw_motor_M3x30.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Diffuse a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Specular a="1.000000000" b="0.600000000" g="0.600000000" r="0.600000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="dc_motor_mounting_DB18" uid="KF7j*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00175396211</Mass>
+            <CenterOfMass>0.135899925 0.150669714 0.001500000 </CenterOfMass>
+            <Inertia>0.000000177 0.000000026 0.000000200 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="dc_motor_mounting_DB18.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.800000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KF/j*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00026406</Mass>
+            <CenterOfMass>-0.014500000 0.066500000 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000007 0.000000007 0.000000001 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KFDk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.044262751</Mass>
+            <CenterOfMass>-0.000938772 0.038409844 -0.000000121 </CenterOfMass>
+            <Inertia>0.000023297 0.000003096 0.000023084 0.000000000 0.000000000 0.000001063 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KFHk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000176570258</Mass>
+            <CenterOfMass>0.013800000 0.011600000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000001 0.000000001 0.000000002 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Diffuse a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Specular a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KFLk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>6.77844895e-05</Mass>
+            <CenterOfMass>-0.000000000 -0.002343388 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KFPk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.83375e-05</Mass>
+            <CenterOfMass>-0.010166667 0.042666667 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KFTk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.83375e-05</Mass>
+            <CenterOfMass>0.008566667 0.042166667 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_motor" uid="KFXk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>2.67184894e-05</Mass>
+            <CenterOfMass>0.010027787 0.022600000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_motor6.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel_rubber" uid="KFbk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0314986848</Mass>
+            <CenterOfMass>0.000000000 0.029499999 0.000000026 </CenterOfMass>
+            <Inertia>0.000015505 0.000027878 0.000015505 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel_rubber.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KFfk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23180573e-07</Mass>
+            <CenterOfMass>-0.000000010 0.019408127 -0.004999383 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KFjk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00232197774</Mass>
+            <CenterOfMass>-0.000000000 0.019751168 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000266 0.000000522 0.000000266 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KFnk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0199500738</Mass>
+            <CenterOfMass>-0.000000000 0.029507097 0.000000000 </CenterOfMass>
+            <Inertia>0.000007179 0.000012283 0.000007179 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KFrk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00279240632</Mass>
+            <CenterOfMass>0.000000001 0.032723443 0.000000002 </CenterOfMass>
+            <Inertia>0.000000175 0.000000044 0.000000174 -0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KFvk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23189052e-07</Mass>
+            <CenterOfMass>-0.004999391 0.019408128 -0.000000007 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KFzk*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23199909e-07</Mass>
+            <CenterOfMass>0.004999376 0.019408137 0.000000005 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="left_wheel" uid="KF3k*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23178852e-07</Mass>
+            <CenterOfMass>-0.000000015 0.019408125 0.004999388 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="left_wheel6.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KF7k*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00026406</Mass>
+            <CenterOfMass>-0.014500000 0.066500000 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000007 0.000000007 0.000000001 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KF/k*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.044262751</Mass>
+            <CenterOfMass>-0.000938772 0.038409844 -0.000000121 </CenterOfMass>
+            <Inertia>0.000023297 0.000003096 0.000023084 0.000000000 0.000000000 0.000001063 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KFDl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.000176570258</Mass>
+            <CenterOfMass>0.013800000 0.011600000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000001 0.000000001 0.000000002 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Diffuse a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Specular a="1.000000000" b="0.874509804" g="0.874509804" r="0.874509804"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KFHl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>6.77844895e-05</Mass>
+            <CenterOfMass>-0.000000000 -0.002343388 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KFLl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.83375e-05</Mass>
+            <CenterOfMass>-0.010166667 0.042666667 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KFPl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>1.83375e-05</Mass>
+            <CenterOfMass>0.008566667 0.042166667 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_motor" uid="KFTl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>2.67184894e-05</Mass>
+            <CenterOfMass>0.010027787 0.022600000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_motor6.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.800000000" r="0.400000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel_rubber" uid="KFXl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0314986848</Mass>
+            <CenterOfMass>0.000000000 0.029499999 0.000000026 </CenterOfMass>
+            <Inertia>0.000015505 0.000027878 0.000015505 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel_rubber.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Diffuse a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Specular a="1.000000000" b="0.200000000" g="0.200000000" r="0.200000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFbl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23180573e-07</Mass>
+            <CenterOfMass>-0.000000010 0.019408127 -0.004999383 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFfl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00232197774</Mass>
+            <CenterOfMass>-0.000000000 0.019751168 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000266 0.000000522 0.000000266 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFjl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0199500738</Mass>
+            <CenterOfMass>-0.000000000 0.029507097 0.000000000 </CenterOfMass>
+            <Inertia>0.000007179 0.000012283 0.000007179 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFnl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.00279240632</Mass>
+            <CenterOfMass>0.000000001 0.032723443 0.000000002 </CenterOfMass>
+            <Inertia>0.000000175 0.000000044 0.000000174 -0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFrl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23189052e-07</Mass>
+            <CenterOfMass>-0.004999391 0.019408128 -0.000000007 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFvl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23199909e-07</Mass>
+            <CenterOfMass>0.004999376 0.019408137 0.000000005 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="right_wheel" uid="KFzl*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>9.23178852e-07</Mass>
+            <CenterOfMass>-0.000000015 0.019408125 0.004999388 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="right_wheel6.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.000000000" g="0.792156863" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="hudson_bearing" uid="KF3l*:*61daa5c8bf8a31a3b93640cc">
+         <ModelUnits length="millimeter" mass="gram"/>
+         <MassProperties>
+            <Mass>0.0196494357</Mass>
+            <CenterOfMass>0.000000000 -0.000000000 0.007658307 </CenterOfMass>
+            <Inertia>0.000001143 0.000001227 0.000001421 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="hudson_bearing.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.694117647" g="0.694117647" r="0.694117647"/>
+            <Diffuse a="1.000000000" b="0.694117647" g="0.694117647" r="0.694117647"/>
+            <Specular a="1.000000000" b="0.694117647" g="0.694117647" r="0.694117647"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>
